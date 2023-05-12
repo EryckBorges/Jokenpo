@@ -416,7 +416,7 @@ const Tesoura = () => {
 
 //Checador de pontos
 const vitoria = () => {
-   if (document.querySelector('#pontPer').innerHTML == 10) {
+   if (document.querySelector('#pontPer').innerHTML == 5) {
       setTimeout(() => {
          document.querySelector(".vitoria").style.display = "block";
          document.querySelector(".vitoria").style.backgroundImage = "url('https://www.bing.com/th/id/OGC.ea1cd374ef35f8a51e119c043c8f14a2?pid=1.7&rurl=https%3a%2f%2facegif.com%2fwp-content%2fgif%2fconfetti-25.gif&ehk=7rtvNaZFd2MThfvQ0z5YxXm6GULJwmNGeDq2Dx4%2bBLU%3d')";
@@ -433,7 +433,7 @@ const vitoria = () => {
 
       clearTimeout(loop);
 
-   } else if (document.querySelector('#pontIni').innerHTML == 10) {
+   } else if (document.querySelector('#pontIni').innerHTML == 5) {
       setTimeout(() => {
          document.querySelector(".again").src = "https://cdn-icons-png.flaticon.com/512/3240/3240718.png";
          document.querySelector(".sair").src = "https://icones.pro/wp-content/uploads/2022/07/symbole-de-puissance-et-d-energie-rouge.png";
