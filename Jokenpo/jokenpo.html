@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="https://play-lh.googleusercontent.com/NPjdQOoUL-qmdZ3M5FJrLrkHqErHZkoqC_1Vm1tCg5tMoFhHJ6LJQE2JB2YalqXW6Zg" type="image/x-icon">
+    <script src="js/jokenpo.js" defer></script>
+    <title>Jokenpô</title>
+</head>
+
+<body>
+    <div class="animation"></div>
+    <div class="div-ini">
+        <button class="btn" disabled>
+            <img src="https://www.playclick.com.br/jogo_jokenpo/img/pedra.png" class="maoini">
+        </button>
+    </div>
+    <h1>Escolha uma mão</h1>
+    <div class="div-btn">
+        <button class="btn papel" onclick="Papel()">
+            <img src="https://www.playclick.com.br/jogo_jokenpo/img/papel.png" class="mao">
+        </button>
+        <button class="btn pedra" onclick="Pedra()">
+            <img src="https://www.playclick.com.br/jogo_jokenpo/img/pedra.png" class="mao">
+        </button>
+        <button class="btn tesoura" onclick="Tesoura()">
+            <img src="https://www.playclick.com.br/jogo_jokenpo/img/tesoura.png" class="mao">
+        </button>
+    </div>
+    <div class="pontuacao">
+        <div class="pont ini">
+            <h3>Você</h3><br>
+            <span id="pontPer">0</span>
+        </div>
+        <div class="pont per">
+            <h3>Inimigo</h3><br>
+            <span id="pontIni">0</span>
+        </div>
+    </div>
+    <div class="vitoria">
+        <h1 id="status"></h1>
+        <button id="again" onclick="Again()">
+            <img class="image again" src="">
+            <br>Jogar Novamente</button>
+        <button id="sair" onclick="Sair()"><img class="image sair" src="">
+            <br><br>Sair</button>
+    </div>
+    <p id="copy">&copy; Eryck Borges</p>
+</body>
+
+</html>

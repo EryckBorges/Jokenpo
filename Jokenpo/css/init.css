@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Titan One', cursive;
+    padding: 0;
+    user-select: none;
+    user-zoom: none;
+}
+
+body {    
+    background: linear-gradient(45deg, black, rgb(7, 7, 49), rgb(15, 40, 109),rgb(0, 102, 255));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.div-jok {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+h1 {
+    text-shadow: 6px 3px 0px rgb(7, 7, 49);
+    margin-top: 30px;
+    margin-bottom: 125px;
+    font-size: 50pt;
+    color: rgb(33, 211, 255);
+}
+
+#play {
+    text-align: center;
+    cursor: pointer;
+    background: transparent;
+    width: 12vw;
+    height: 22vh;
+    font-size: 26pt;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    border:none;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    transition: 1s;
+}
+
+#play:hover{
+    box-shadow: 0px 0px 10px 8px rgb(7, 7, 49);
+}
+
+img{
+    height: 100%;
+    width:100%;
+}
+#copy{
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    color:white;
+    position: absolute;
+    bottom: 2vh;
+    left:2vw;
+}
+
+#maos{
+    position: absolute;
+    left: 0;
+    height: 80%;
+    width: 50%;
+}
+#maos2{
+    position: absolute;
+    right: 0;
+    height: 80%;
+    width: 50%;
+}
